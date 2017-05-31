@@ -4,7 +4,7 @@
   "description": "A small, simple package that gives you a certain number of years to be displayed in a html select box with an option for offset, i.e. if you need to display only the years up unitl now minus 'X' (e.g. give the user opportunity to register only if he has more than 18 years).",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "mocha --compilers js:babel-core/register"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,17 @@
     "birthday"
   ],
   "author": "Mihail Gaberov",
-  "license": "MIT"
+  "license": "MIT",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2"
+  }
 }
