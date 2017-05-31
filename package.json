@@ -1,6 +1,6 @@
 {
   "name": "select-year-with-offset",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A small, simple package that gives you a certain number of years to be displayed in a html select box with an option for offset, i.e. if you need to display only the years up unitl now minus 'X' (e.g. give the user opportunity to register only if he has more than 18 years).",
   "main": "index.js",
   "scripts": {
