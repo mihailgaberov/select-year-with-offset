@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { getYears } from '../index'
+import getYears from '../index'
 
 describe('Select Year with Offset module', () => {
 

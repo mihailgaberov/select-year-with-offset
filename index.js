@@ -1,4 +1,4 @@
-exports.getYears = function (offset, yearsToShow) {
+export default function (offset, yearsToShow) {
 
   if (offset === undefined ||
     yearsToShow === undefined ||
