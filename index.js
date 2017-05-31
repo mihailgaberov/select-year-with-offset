@@ -1,4 +1,4 @@
-export default function (offset, yearsToShow) {
+module.exports = function (offset, yearsToShow) {
 
   if (offset === undefined ||
     yearsToShow === undefined ||
